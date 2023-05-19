@@ -1,0 +1,20 @@
+{
+    "name": "module03",
+    "version": "1.0.0",
+    "description": "This is my first package file",
+    "main": "app.js",
+    "scripts": {
+        "dev": "nodemon app"
+    },
+    "author": "Anuja Chivate",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "mongodb": "^5.2.0",
+        "uuid": "^9.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
